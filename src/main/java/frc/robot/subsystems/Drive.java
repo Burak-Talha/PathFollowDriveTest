@@ -96,11 +96,11 @@ public class Drive extends SubsystemBase{
         rightMaster.setInverted(true);
         rightSlave.setInverted(true);
 
-        /*leftEncoder.setPositionConversionFactor(Constants.DriveConstants.POSITION_CONVERSION_FACTOR);
+        leftEncoder.setPositionConversionFactor(Constants.DriveConstants.POSITION_CONVERSION_FACTOR);
         rightEncoder.setPositionConversionFactor(Constants.DriveConstants.POSITION_CONVERSION_FACTOR);
 
         leftEncoder.setVelocityConversionFactor(Constants.DriveConstants.VELOCITY_CONVERSION_FACTOR);
-        rightEncoder.setVelocityConversionFactor(Constants.DriveConstants.VELOCITY_CONVERSION_FACTOR);*/
+        rightEncoder.setVelocityConversionFactor(Constants.DriveConstants.VELOCITY_CONVERSION_FACTOR);
 
 
         // Tele-Op Drive pid
